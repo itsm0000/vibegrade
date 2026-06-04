@@ -1,0 +1,7 @@
+flask>=3.0
+flask-cors>=4.0
+rawpy>=0.18
+imageio>=2.31
+Pillow>=10.0
+numpy>=1.24
+color-matcher>=0.5

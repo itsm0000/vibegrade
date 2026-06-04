@@ -42,11 +42,19 @@ pip install -r requirements.txt
 
 ## Run the app
 
+You can run VibeGrade in two ways:
+
+### 1. Using Desktop Shortcuts (Recommended)
+We've created two convenient shortcuts on your Windows Desktop:
+- 🚀 **`VibeGrade`**: Double-click this shortcut to start the server silently in the background and automatically open the application in your web browser. No command prompt windows will clutter your screen!
+- 🛑 **`Stop VibeGrade`**: Double-click this red power button shortcut to silently terminate the background server and release port 5000.
+
+### 2. Manually via Terminal
+If you prefer running it from the command line:
 ```powershell
 # From the colorgrading folder, with venv active:
 python app.py
 ```
-
 Then open your browser at: **http://localhost:5000**
 
 ---

@@ -1,0 +1,23 @@
+# Cursor Rules — Bridge to AGENTS.md
+# Cursor reads this file automatically as .cursorrules
+# All rules live in AGENTS.md — this just imports them.
+
+Read the file AGENTS.md in this repository root. Follow everything in it.
+Read HANDOFF.md before starting any work session.
+Read docs/DECISIONS.md before making any architectural decisions.
+
+## Summary of non-negotiables (full rules in AGENTS.md + GLOBAL-RULES.md):
+- Never default to lazy tech choices — always research industry standards
+- Never say "out of scope" — search GitHub for open-source alternatives first  
+- All testing done by an adversarial sub-agent, not the dev agent
+- Expensive models = planning + review only; cheap models = generate + test + summarize
+- Every session ends with HANDOFF.md updated + commit + push
+- Repetitive tasks → scripts; repeated requests → rules
+- Ideas captured in IDEAS.md without interrupting flow
+
+## AI Commands (respond to these immediately, no confirmation needed):
+- "morning brief" → read all HANDOFF.md files, show project dashboard
+- "wrap up" → read git diff, update HANDOFF.md, commit, push
+- "capture idea: [text]" → append to OMNI-HELPER/IDEAS.md
+- "project status" → show current HANDOFF.md next steps
+- "what should i work on" → read HANDOFF.md, propose best next action
